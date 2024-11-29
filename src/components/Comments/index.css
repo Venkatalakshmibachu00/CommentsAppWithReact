@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Roboto;
+  padding-bottom: 30px;
+}
+.title {
+  font-size: 30px;
+  color: #1e293b;
+  font-weight: 550;
+}
+.para {
+  font-size: 20px;
+  color: #475569;
+}
+.name-input {
+  width: 300px;
+  padding: 10px;
+}
+.comment-input {
+  width: 300px;
+  min-height: 120px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.btn {
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #0284c7;
+  color: #fff;
+  border: none;
+}
+.image {
+  height: 300px;
+  width: 350px;
+  align-self: center;
+}
+.count-comment-container {
+  display: flex;
+  gap: 5px;
+  height: 27px;
+}
+.count-comment {
+  padding: 5px;
+  background-color: #0b69ff;
+  color: #fff;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para1 {
+  font-size: 15px;
+  align-self: center;
+}
+.like {
+  height: 25px;
+  width: 31px;
+}

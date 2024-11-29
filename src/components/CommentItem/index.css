@@ -1,0 +1,106 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.letter {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.letter-container {
+  color: #fff;
+  border-radius: 45px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person-name {
+  font-size: 25px;
+  font-weight: 520px;
+  color: #334155;
+}
+.person-comment {
+  font-size: 18px;
+  color: #64748b;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+.delete-img {
+  height: 20px;
+  width: 20px;
+}
+.like-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+hr {
+  color: black;
+  width: 100%;
+}
+.like-para {
+  color: #0b69ff;
+  font-weight: 550;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.unlike-para {
+  color: #475569;
+  font-weight: 550;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
